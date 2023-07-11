@@ -11,13 +11,13 @@ variable "region" {
 }
 
 variable "instance_type" {
-  default = "t4g.small"
+  default = "t2.micro"
 }
 
 variable "subnet_id" {
-  default = "subnet-095497428d36194f8" // use one of our subnet ids as default doesn't exist
+  default = "subnet-0952707821a56110c" // use one of our subnet ids as default doesn't exist
 }
 
 variable "vpc_id" {
-  default = "vpc-0d97a4b111464b842" // use one of our vpc ids as default doesn't exist
+  default = "vpc-0724304069772d554" // use one of our vpc ids as default doesn't exist
 }
